@@ -18,7 +18,10 @@ This application is designed to help students take notes and keep track of all n
   npm i
 
   ## Usage
-    To use this application you will need to access the Develop folder. Under the Public folder, you will see an index.html file. Right click on that and you will be able to use the Note Taking Application.
+    To use this application you will need to access the Develop folder. Under the Public folder, you will see an index.html file. In the CLI, change directory into public folder. 
+    [cd Cloned\Sarter\Code  ; cd Develop   ; cd public]
+    Once you are in the public folder, run node server.js. The CLI will show "App listening on PORT 3001".
+    From here, you will open a browser and type into the address field, <localhost:3001>. You can now use the Note Taking Application.
 
   ## Licenses
     This project is covered under the MIT license. To learn more about what this means, click the license button at the top.
